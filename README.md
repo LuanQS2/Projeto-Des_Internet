@@ -68,3 +68,16 @@ Use as credenciais do application.properties para conectar:
 ### 5. Aluno removido
 
 ![Aluno removido](src/main/resources/static/img/Aluno-Excluido.png)
+
+
+## 🤝 Créditos e Colaboradores
+
+Este projeto foi desenvolvido por:
+
+* **Luan Qualhareli Segura** (Desenvolvimento principal e código final)
+* https://github.com/LuanQS2
+
+Com a contribuição e auxílio de:
+
+* **Victor Rodrigues Villalon** (Apoio na estruturação inicial e resolução de dúvidas)
+* https://github.com/VillalonV
