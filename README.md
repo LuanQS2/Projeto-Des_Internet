@@ -4,7 +4,7 @@
 
 Este projeto é uma aplicação web completa desenvolvida com **Spring Boot** que implementa um **CRUD (Create, Read, Update, Delete)** para a gestão de registros de alunos.
 
-O projeto segue todas as orintações feita pelo Professor André:
+O projeto segue todas as **orientações** feitas pelo Professor André::
 
 * **Backend:** Spring Boot 3+ (Java)
 * **Acesso a Dados:** Spring Data JPA
