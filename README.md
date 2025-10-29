@@ -51,19 +51,19 @@ Use as credenciais do application.properties para conectar:
 
 ### 1. Listagem de Alunos vazia (`/alunos`)
 
-![Tela de lista de Alunos](img/Lista-vazia.png)
+![Tela de lista de Alunos](src/main/resources/static/img/Lista-vazia.png)
 
 ### 2. Listagem de Alunos
 
-![Listagem de Alunos](img/tela-lista-alunos-add.png)
+![Listagem de Alunos](src/main/resources/static/img/tela-lista-alunos-add.png)
 
 ### 3. Formulário de Cadastro/Edição
 
-![Formulário de Cadastro](img/tela-de-cadastro.png)
+![Formulário de Cadastro](src/main/resources/static/img/tela-de-cadastro.png)
 
 ### 4. Exclusão de Registro
 
-![Confirmação de Exclusão](img/Excluir-cadastro.png)
+![Confirmação de Exclusão](src/main/resources/static/img/Excluir-cadastro.png)
 
 ### 5. Aluno removido
 
