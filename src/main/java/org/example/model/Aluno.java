@@ -1,9 +1,9 @@
 package org.example.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
+import jakarta.validation.constraints.Min;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
 import lombok.Data;
 
 @Entity
@@ -11,9 +11,13 @@ import lombok.Data;
 @Data
 public class Aluno {
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    @NotBlank(message = "O nome é obrigatório")
     private String nome;
+
+    @NotNull(message = "A idade é obrigatória")
+    @Min(value = 5, message = "Idade mínima para matrícula é 5 anos")
     private int idade;
 
     public Aluno() {}

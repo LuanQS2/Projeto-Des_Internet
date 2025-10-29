@@ -18,6 +18,14 @@ public class AlunoService {
     }
 
     public Aluno salvar(Aluno aluno) {
+        if (aluno.getNome() == null || aluno.getNome().trim().isEmpty()) {
+            throw new IllegalArgumentException("O nome do aluno é obrigatório.");
+        }
+
+        if (aluno.getIdade() < 5) {
+            throw new IllegalArgumentException("Idade mínima para matrícula é 5 anos.");
+        }
+
         return alunoRepository.save(aluno);
     }
 

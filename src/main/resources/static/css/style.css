@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: #f7f9fc;
+    font-family: 'Poppins', sans-serif;
+}
+.card-header, .btn, .btn:hover {
+    background-color: #bc1a1a !important;
+}
+
+.card-header {
+    border-top-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+}
+
+.btn {
+    width: 200px !important;
+    color: #ffffff;
+    font-weight: bold !important;
+    border: none !important;
+    border-radius: 20px !important;
+}
+
+.btn:hover {
+    color: #bc1a1a;
+    background-color: transparent !important;
+    border: 1px solid #bc1a1a !important;
+}
+
+.btn-edit{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #ffffff !important;
+    font-weight: bold !important;
+    text-decoration: none !important;
+
+    background-color: #bc1a1a !important;
+    border: none !important;
+    border-radius: 20px !important;
+}
+
+.btn-edit:hover{
+    color: #bc1a1a;
+    background-color: transparent !important;
+    border: 1px solid #bc1a1a !important;
+}
+
+.btn-excluir {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #000 !important;
+    font-weight: bold !important;
+    text-decoration: none !important;
+
+    background-color: transparent !important;
+    border: 1px solid #bc1a1a !important;
+    border-radius: 20px !important;
+}
+
+.card {
+    border-radius: 20px !important;
+    box-shadow: 0 20px 32px rgba(0, 0, 0, 0.5);
+}
