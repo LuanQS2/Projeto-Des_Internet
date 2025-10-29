@@ -67,4 +67,4 @@ Use as credenciais do application.properties para conectar:
 
 ### 5. Aluno removido
 
-![Aluno removido](img/Aluno-Excluido.png)
+![Aluno removido](src/main/resources/static/img/Aluno-Excluido.png)
