@@ -22,7 +22,7 @@ O projeto segue todas as orintações feita pelo Professor André:
 
 ### 1. Clonar o Repositório
 
-https://github.com/LuanQS2/Projeto-Des_Internet.git
+    https://github.com/LuanQS2/Projeto-Des_Internet.git
 
 ### 2. Abrir alguma IDE (OBS: RECOMENDO QUE ABRA NO INTELLIJ IDEA)
 
@@ -34,17 +34,17 @@ https://github.com/LuanQS2/Projeto-Des_Internet.git
 
 ### 6. Acessar a aplicação (URL PRINCIPAL)
 
-http://localhost:8081/alunos
+    http://localhost:8081/alunos
 
 ### OBS: CASO QUEIRA ACESSAR O BANCO DE DADOS 
 
-http://localhost:8081/h2-console
+    http://localhost:8081/h2-console
 
 Use as credenciais do application.properties para conectar:
 
-🏦 JDBC URL: jdbc:h2:mem:db_escola
-👨‍💻 User Name: sa
-🔑 Password: password
+    🏦 JDBC URL: jdbc:h2:mem:db_escola
+    👨‍💻 User Name: sa
+    🔑 Password: password
 
 
 ## 📸 Prints das Telas Principais
